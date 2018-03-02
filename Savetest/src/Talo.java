@@ -1,6 +1,7 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Talo {
+public class Talo implements Serializable{
 
 	private int pintaAla;
 	private ArrayList<Henkilo> asukkaat;

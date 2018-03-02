@@ -1,5 +1,6 @@
+import java.io.Serializable;
 
-public class Henkilo {
+public class Henkilo implements Serializable{
 	
 	private String nimi;
 	private int ika;
